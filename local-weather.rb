@@ -6,12 +6,12 @@ class LocalWeather < Formula
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v0.1.2/local-weather-cli-go_0.1.2_Darwin_x86_64.tar.gz"
-    sha256 "b6913eaeb0ac467f215e93cc528dd2815581d97ca2c2e0d5ce1ca69fb51b7fce"
+    url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v0.1.2/local-weather_0.1.2_Darwin_x86_64.tar.gz"
+    sha256 "172e3f60b16cfa0ebd13a60ffa9e46ada2efb010283862e5d7ef70830bf5b845"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v0.1.2/local-weather-cli-go_0.1.2_Linux_x86_64.tar.gz"
-      sha256 "f4a802e8f4376d40ca2d5541baebbb3fbf7298a308e115619ed95bbbe7c55711"
+      url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v0.1.2/local-weather_0.1.2_Linux_x86_64.tar.gz"
+      sha256 "441c40b20bff560d943e23c2c3fcce0f71af4e8199eb5d5291c95867a427f43e"
     end
   end
 
