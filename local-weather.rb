@@ -7,11 +7,11 @@ class LocalWeather < Formula
 
   if OS.mac?
     url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v0.1.5/local-weather_0.1.5_Darwin_x86_64.tar.gz"
-    sha256 "7c88561739bdd3c8c896c0e84b99af4a3b338859d1d3a4f030921e7ee006c2e1"
+    sha256 "6ea2dda3dd43f3714491dfa607bb9e1f4b89a7428f5c8cf32556278edd12add4"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v0.1.5/local-weather_0.1.5_Linux_x86_64.tar.gz"
-      sha256 "7df1788c2c8df2a273f75e59d9c0f04f75b1e82be7a745223ec1f47cd2d33a40"
+      sha256 "8e61cbd791ac3d4e1fa8310d0a3f391cdd316f026eb944e5f74617d87ca8e58b"
     end
   end
 
