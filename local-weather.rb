@@ -2,16 +2,16 @@
 class LocalWeather < Formula
   desc "Lightweight CLI for quickly checking the current weather."
   homepage ""
-  version "0.1.8"
+  version "0.1.9"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v0.1.8/local-weather_0.1.8_Darwin_x86_64.tar.gz"
-    sha256 "b2cf078c72b7249a07ffe40328f42a85dd207a717afe7268aa8d1e9c1c44211f"
+    url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v0.1.9/local-weather_0.1.9_Darwin_x86_64.tar.gz"
+    sha256 "ae202f9493dfefb806f56eeb8bc46d892fc67a42d75aedef9d3c3cd4f7ce276a"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v0.1.8/local-weather_0.1.8_Linux_x86_64.tar.gz"
-      sha256 "00ce33ed99bb32773ae672b678666d0f31192a848a2a82042c54bb6efd306507"
+      url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v0.1.9/local-weather_0.1.9_Linux_x86_64.tar.gz"
+      sha256 "105c92a42cb456b4750070a96a3999513888f23bccf366343da2fdb19dfcf5e8"
     end
   end
 
