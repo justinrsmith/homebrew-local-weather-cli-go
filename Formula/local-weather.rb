@@ -5,21 +5,21 @@
 class LocalWeather < Formula
   desc "Lightweight CLI for quickly checking the current weather."
   homepage "https://github.com/justinrsmith/local-weather-cli-go"
-  version "2.0.10"
+  version "2.0.12"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v2.0.10/local-weather-cli-go_Darwin_x86_64.tar.gz"
-      sha256 "dcd08f2b47380732fd2ecea91bb674df560a954ee88416639f86ff371b327ede"
+      url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v2.0.12/local-weather-cli-go_Darwin_x86_64.tar.gz"
+      sha256 "dbc984d3d51ca1db0806efc59d533e22aa87a0d0f65bb6e91928d584ae283df8"
 
       def install
         bin.install "local-weather"
       end
     end
     on_arm do
-      url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v2.0.10/local-weather-cli-go_Darwin_arm64.tar.gz"
-      sha256 "e37d9327a5d7cc22a2be2b14b55f3c952185614ac5e3a7292518d7b14416b462"
+      url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v2.0.12/local-weather-cli-go_Darwin_arm64.tar.gz"
+      sha256 "de589d06374bc22859fe16bb49dfc505fa559d837091c0fa83a42606dc911d0b"
 
       def install
         bin.install "local-weather"
@@ -30,8 +30,8 @@ class LocalWeather < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v2.0.10/local-weather-cli-go_Linux_x86_64.tar.gz"
-        sha256 "74bdd8e908f8d30b7f9abdeaef9fac95b54807c1a2369de11c5a582c52763bf3"
+        url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v2.0.12/local-weather-cli-go_Linux_x86_64.tar.gz"
+        sha256 "15906983431bdbdc45ac3e9a49cdecd35575cb36a703bc660fb5750b99a9d511"
 
         def install
           bin.install "local-weather"
@@ -40,8 +40,8 @@ class LocalWeather < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v2.0.10/local-weather-cli-go_Linux_arm64.tar.gz"
-        sha256 "42087bd5d22ad6324b977bc95ca6cda368493fe3a00bad03ef3c8a9716951700"
+        url "https://github.com/justinrsmith/local-weather-cli-go/releases/download/v2.0.12/local-weather-cli-go_Linux_arm64.tar.gz"
+        sha256 "a0b71b4ba5d3fa3f878c3374c679f9312112c6f136747a5860f5090ce0133d86"
 
         def install
           bin.install "local-weather"
